@@ -76,7 +76,7 @@ th {
 
 :root {
   --font-family-point: "Fraunces", sans-serif;
-  --font-default-color: #86878c;
+  --font-default-color: hsl(228, 12%, 48%);
   --font-size-lg: 32px;
   --font-size-md: 16px;
   --font-size-sm: 14px;
@@ -84,12 +84,12 @@ th {
   --font-weight-medium: 500;
   --font-weight-semi: 600;
   --font-weight-bold: 700;
-  --btn-primary: #3d8168;
+  --btn-primary: hsl(158, 36%, 37%);
   --btn-primary-hover: #1a4031;
 }
 
 body {
-  background-color: #f3eae3;
+  background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -107,6 +107,7 @@ body {
     overflow: hidden;
 
     .product__img {
+      display: block;
       position: relative;
       overflow: hidden;
       cursor: pointer;
@@ -139,7 +140,7 @@ body {
       }
     }
     .product__info {
-      background-color: white;
+      background-color: hsl(0, 0%, 100%);
       padding: 2rem;
       line-height: 1;
 
@@ -157,7 +158,7 @@ body {
         line-height: 1;
         font-weight: var(--font-weight-bold);
         margin: 1.25rem 0 1.5rem;
-        color: #151d20;
+        color: hsl(212, 21%, 14%);
       }
       .product__info__desc {
         color: var(--font-default-color);
